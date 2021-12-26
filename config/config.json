@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "express!",
+    "database": "db_express",
+    "host": "express.c3xjop7xrq6c.ap-northeast-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "admin",
+    "password": "express!",
+    "database": "database_test",
+    "host": "express.c3xjop7xrq6c.ap-northeast-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "admin",
+    "password": "express!",
+    "database": "database_production",
+    "host": "express.c3xjop7xrq6c.ap-northeast-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}

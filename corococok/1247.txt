@@ -1,0 +1,980 @@
+다음시간
+https://any-ting.tistory.com/53
+
+Apii/models
+
+user.js
+index.js
+
+config
+config.json
+
+index 고쳤음
+
+aws rds 만들고
+express.c3xjop7xrq6c.ap-northeast-2.rds.amazonaws.com
+admin
+express!
+
+아래는 로그
+PS C:\Users\shun7\express_proj> node app.js
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module 'core-js/modules/es6.object.define
+Require stack:
+- C:\Users\shun7\express_proj\node_modules\express-routes-ma
+- C:\Users\shun7\express_proj\app.js
+    at Function.Module._resolveFilename (node:internal/modul
+    at Function.Module._load (node:internal/modules/cjs/load
+    at Module.require (node:internal/modules/cjs/loader:1005
+    at require (node:internal/modules/cjs/helpers:102:18)
+153:10)
+    at Function.Module._load (node:internal/modules/cjs/load
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\shun7\\express_proj\\node_modules\\express-r\\lib\\index.js',
+    'C:\\Users\\shun7\\express_proj\\app.js'
+  ]
+}
+PS C:\Users\shun7\express_proj> node -v
+v16.13.1
+PS C:\Users\shun7\express_proj> npm -v
+PS C:\Users\shun7\express_proj> core -v
+core : 'core' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할
+로그램 이름으로 인식되지 않습니다. 이름이 정확한지 확인하고 
+된 경우 경로가 올바른지 검증한 다음 다시 시도하십시오.
+위치 줄:1 문자:1
++ core -v
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (core:String) 
+   dNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+core-js : 'core-js' 용어가 cmdlet, 함수, 스크립트 파일 또는 
+있는 프로그램 이름으로 인식되지 않습니다. 이름이 정확한지 확
+가 포함된 경우 경로가 올바른지 검증한 다음 다시 시도하십시오
+위치 줄:1 문자:1
++ core-js -v
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (core-js:Strin
+   mandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\shun7\express_proj> npm i --save-dev @babel/cli 
+@babel/preset-env @babel/node
+
+added 126 packages, and audited 438 packages in 15s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> npm update 
+
+added 9 packages, removed 10 packages, changed 3 packages, a37 packages in 16s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> node app.js
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module 'core-js/modules/es6.object.define
+Require stack:
+- C:\Users\shun7\express_proj\node_modules\express-routes-maex.js
+- C:\Users\shun7\express_proj\app.js
+    at Function.Module._resolveFilename (node:internal/modulr:933:15)
+    at Function.Module._load (node:internal/modules/cjs/load
+    at Module.require (node:internal/modules/cjs/loader:1005
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\node_ess-routes-mapper\lib\index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:110
+    at Object.Module._extensions..js (node:internal/modules/153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/load
+    at Module.require (node:internal/modules/cjs/loader:1005
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\shun7\\express_proj\\node_modules\\express-r\\lib\\index.js',
+    'C:\\Users\\shun7\\express_proj\\app.js'
+  ]
+}
+PS C:\Users\shun7\express_proj> npm i --save core-js        
+up to date, audited 437 packages in 1s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> npm update
+up to date, audited 437 packages in 3s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> node app.js
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module 'core-js/modules/es6.object.define
+Require stack:
+- C:\Users\shun7\express_proj\node_modules\express-routes-maex.js
+- C:\Users\shun7\express_proj\app.js
+    at Function.Module._resolveFilename (node:internal/modulr:933:15)
+    at Function.Module._load (node:internal/modules/cjs/load
+    at Module.require (node:internal/modules/cjs/loader:1005
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\node_ess-routes-mapper\lib\index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:110
+153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/load
+    at Module.require (node:internal/modules/cjs/loader:1005
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\shun7\\express_proj\\node_modules\\express-r\\lib\\index.js',
+    'C:\\Users\\shun7\\express_proj\\app.js'
+  ]
+}
+PS C:\Users\shun7\express_proj> node app.js
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module 'core-js/modules/es6.object.define
+Require stack:
+- C:\Users\shun7\express_proj\node_modules\express-routes-maex.js
+- C:\Users\shun7\express_proj\app.js
+    at Function.Module._resolveFilename (node:internal/modulr:933:15)
+    at Function.Module._load (node:internal/modules/cjs/load
+    at Module.require (node:internal/modules/cjs/loader:1005
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\node_ess-routes-mapper\lib\index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:110
+153:10)
+    at Function.Module._load (node:internal/modules/cjs/load
+    at Module.require (node:internal/modules/cjs/loader:1005
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\shun7\\express_proj\\node_modules\\express-r\\lib\\index.js',
+    'C:\\Users\\shun7\\express_proj\\app.js'
+  ]
+}
+PS C:\Users\shun7\express_proj> npm core-js -v
+8.1.2
+PS C:\Users\shun7\express_proj> npm -b
+npm <command>
+
+Usage:
+
+npm install        install all the dependencies in your proj
+npm install <foo>  add the <foo> dependency to your project
+npm test           run this project's tests
+npm run <foo>      run the script named <foo>
+npm <command> -h   quick help on <command>
+npm -l             display usage info for all commands
+npm help <term>    search for help on <term> (in a browser)
+npm help npm       more involved overview (in a browser)
+
+All commands:
+
+    access, adduser, audit, bin, bugs, cache, ci,
+    completion, config, dedupe, deprecate, diff, dist-tag,
+    docs, doctor, edit, exec, explain, explore, find-dupes,
+    fund, get, help, hook, init, install, install-ci-test,
+    install-test, link, ll, login, logout, ls, org,
+    outdated, owner, pack, ping, pkg, prefix, profile,
+    prune, publish, rebuild, repo, restart, root,
+    stars, start, stop, team, test, token, uninstall,
+
+Specify configs in the ini-formatted file:
+    C:\Users\shun7\.npmrc
+or on the command line via: npm <command> --key=value
+
+More configuration info: npm help config
+Configuration fields: npm help 7 config
+
+npm@8.1.2 C:\Program Files\nodejs\node_modules\npm
+PS C:\Users\shun7\express_proj> npm -v
+8.1.2
+PS C:\Users\shun7\express_proj> node app.js   
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module 'core-js/modules/es6.object.define
+Require stack:
+- C:\Users\shun7\express_proj\node_modules\express-routes-maex.js
+- C:\Users\shun7\express_proj\app.js
+    at Function.Module._resolveFilename (node:internal/modulr:933:15)
+    at Function.Module._load (node:internal/modules/cjs/load
+    at Module.require (node:internal/modules/cjs/loader:1005
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\node_ess-routes-mapper\lib\index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:110
+    at Object.Module._extensions..js (node:internal/modules/
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/load
+    at Module.require (node:internal/modules/cjs/loader:1005
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\shun7\\express_proj\\node_modules\\express-r
+    'C:\\Users\\shun7\\express_proj\\app.js'
+  ]
+}
+PS C:\Users\shun7\express_proj> npm install core-js
+npm WARN deprecated core-js@2.6.12: core-js@<3.3 is no longengine whims, feature detection in old core-js versions couldes to the actual version of core-js.
+added 1 package, changed 1 package, and audited 438 packages
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> npm update
+up to date, audited 438 packages in 26s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> node app.js        
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module 'bcrypt-nodejs'
+Require stack:
+- C:\Users\shun7\express_proj\api\services\bcrypt.service.js
+- C:\Users\shun7\express_proj\api\models\User.js
+- C:\Users\shun7\express_proj\api\controllers\UserController
+- C:\Users\shun7\express_proj\node_modules\express-routes-ma
+- C:\Users\shun7\express_proj\app.js
+    at Function.Module._resolveFilename (node:internal/modul
+    at Function.Module._load (node:internal/modules/cjs/load
+    at Module.require (node:internal/modules/cjs/loader:1005
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\api\s
+    at Module._compile (node:internal/modules/cjs/loader:110
+    at Module._compile (C:\Users\shun7\express_proj\node_mod
+    at Module._extensions..js (node:internal/modules/cjs/loa
+    at Object.newLoader [as .js] (C:\Users\shun7\express_pro
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\shun7\\express_proj\\api\\services\\bcrypt.s
+    'C:\\Users\\shun7\\express_proj\\api\\models\\User.js',
+    'C:\\Users\\shun7\\express_proj\\api\\controllers\\UserC
+    'C:\\Users\\shun7\\express_proj\\node_modules\\express-r
+    'C:\\Users\\shun7\\express_proj\\app.js'
+  ]
+}
+PS C:\Users\shun7\express_proj> npm install bcrypt-nodejs
+npm WARN deprecated bcrypt-nodejs@0.0.3: bcrypt-nodejs is no/node.bcrypt.js/wiki/bcrypt-vs-brypt.js to learn more about 
+added 1 package, and audited 439 packages in 2s
+
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> npm update
+
+up to date, audited 439 packages in 3s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+To address all issues (including breaking changes), run:
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> node app.js
+only development, staging, test and production are valid NOD
+PS C:\Users\shun7\express_proj>
+
+
+
+                                node app.js
+only development, staging, test and production are valid NOD
+PS C:\Users\shun7\express_proj> npm start
+npm ERR! Missing script: "start"
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR!
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\shun7\AppData\Local\npm-cache\_logs\20
+PS C:\Users\shun7\express_proj> node app.js
+only development, staging, test and production are valid NOD
+PS C:\Users\shun7\express_proj> npm i @babel/cli @babel/core
+up to date, audited 439 packages in 3s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> npm update
+
+up to date, audited 439 packages in 20s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> node app.js
+PS C:\Users\shun7\express_proj> npm install babel
+npm WARN deprecated babel@6.23.0: In 6.x, the babel package t the Babel maintainers
+
+added 1 package, removed 124 packages, and audited 316 packa
+
+34 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+
+PS C:\Users\shun7\express_proj> npm update
+
+added 8 packages, removed 9 packages, changed 3 packages, an
+
+34 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+PS C:\Users\shun7\express_proj> node app.js      
+only development, staging, test and production are valid NOD
+PS C:\Users\shun7\express_proj> npm install @babel/cli @babe
+
+added 126 packages, and audited 441 packages in 7s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+
+PS C:\Users\shun7\express_proj> npm update
+
+added 9 packages, removed 10 packages, changed 3 packages, a
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> node app.js
+only development, staging, test and production are valid NOD
+PS C:\Users\shun7\express_proj> npm ci
+npm WARN deprecated babel@6.23.0: In 6.x, the babel package t the Babel maintainers
+npm WARN deprecated har-validator@5.1.5: this library is no 
+npm WARN deprecated bcrypt-nodejs@0.0.3: bcrypt-nodejs is no/node.bcrypt.js/wiki/bcrypt-vs-brypt.js to learn more about 
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7
+to be problematic.  See https://v8.dev/blog/math-random for 
+npm WARN deprecated request@2.88.2: request has been depreca
+npm WARN deprecated node-pre-gyp@0.11.0: Please upgrade to @ scoped package will recieve updates in the future
+npm WARN deprecated core-js@2.6.12: core-js@<3.3 is no longees to the actual version of core-js.
+  run `npm fund` for details
+3 high severity vulnerabilities
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> npm rebuild
+rebuilt dependencies successfully
+PS C:\Users\shun7\express_proj> node app.js
+only development, staging, test and production are valid NOD
+
+    + CategoryInfo          : ObjectNotFound: (env:String) [], CommandN
+
+only development, staging, test and production are valid NODE_ENV varia
+PS C:\Users\shun7\express_proj> node app.js
+only development, staging, test and production are valid NODE_ENV varia
+PS C:\Users\shun7\express_proj> npm rebuild
+rebuilt dependencies successfully
+PS C:\Users\shun7\express_proj> node app.js
+only development, staging, test and production are valid NODE_ENV varia
+PS C:\Users\shun7\express_proj>
+
+
+
+                                npm rebuild
+rebuilt dependencies successfully
+PS C:\Users\shun7\express_proj> node app.js
+only development, staging, test and production are valid NODE_ENV varia
+PS C:\Users\shun7\express_proj> node app.js
+only development, staging, test and production are valid NODE_ENV varia
+PS C:\Users\shun7\express_proj> npm rebuild
+rebuilt dependencies successfully
+PS C:\Users\shun7\express_proj> node app.js
+Executing (default): SELECT 1+1 AS result
+Executing (default): DROP TABLE IF EXISTS `users`;
+Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER P
+NULL, `updatedAt` DATETIME NOT NULL);
+Executing (default): PRAGMA INDEX_LIST(`users`)
+Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_1`)
+connection to the database has been established successfully
+PS C:\Users\shun7\express_proj> node index.js
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module './lib/template.js'
+Require stack:
+- C:\Users\shun7\express_proj\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/load
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\index.js:4:16)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modul
+  requireStack: [ 'C:\\Users\\shun7\\express_proj\\index.js' ]
+PS C:\Users\shun7\express_proj> node index.js
+C:\Users\shun7\express_proj\index.js:11
+               ^
+
+    at C:\Users\shun7\express_proj\index.js:11:16
+PS C:\Users\shun7\express_proj> node index.js
+PS C:\Users\shun7\express_proj> node index.js
+server on! http://localhost:3000
+PS C:\Users\shun7\express_proj> node index.js
+server on! http://localhost:3000
+PS C:\Users\shun7\express_proj> node index.js
+server on! http://localhost:3000
+Error: ENOENT: no such file or directory, stat 'C:\Users\shun7\express_
+PS C:\Users\shun7\express_proj> node index.js
+server on! http://localhost:3000
+PS C:\Users\shun7\express_proj> node index.js
+server on! http://localhost:3000
+PS C:\Users\shun7\express_proj> node index.js
+server on! http://localhost:3000
+Error: Cannot find module 'html'
+Require stack:
+- C:\Users\shun7\express_proj\node_modules\express\lib\view.js
+- C:\Users\shun7\express_proj\node_modules\express\lib\application.js
+- C:\Users\shun7\express_proj\node_modules\express\lib\express.js
+- C:\Users\shun7\express_proj\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/load
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at new View (C:\Users\shun7\express_proj\node_modules\express\lib\v
+    at Function.render (C:\Users\shun7\express_proj\node_modules\expres
+    at ServerResponse.render (C:\Users\shun7\express_proj\node_modules\
+    at C:\Users\shun7\express_proj\index.js:7:9
+    at Layer.handle [as handle_request] (C:\Users\shun7\express_proj\no
+    at next (C:\Users\shun7\express_proj\node_modules\express\lib\route
+PS C:\Users\shun7\express_proj> npm install html
+added 3 packages, and audited 443 packages in 3s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> npm update
+changed 1 package, and audited 443 packages in 16s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> node index.js   
+Error: Module "html" does not provide a view engine.
+    at new View (C:\Users\shun7\express_proj\node_modules\express\lib\v
+    at Function.render (C:\Users\shun7\express_proj\node_modules\expres
+    at ServerResponse.render (C:\Users\shun7\express_proj\node_modules\
+    at C:\Users\shun7\express_proj\index.js:7:9
+    at Layer.handle [as handle_request] (C:\Users\shun7\express_proj\no
+    at next (C:\Users\shun7\express_proj\node_modules\express\lib\route
+    at Route.dispatch (C:\Users\shun7\express_proj\node_modules\express
+    at Layer.handle [as handle_request] (C:\Users\shun7\express_proj\no
+    at C:\Users\shun7\express_proj\node_modules\express\lib\router\inde
+    at Function.process_params (C:\Users\shun7\express_proj\node_module
+PS C:\Users\shun7\express_proj> node index.js
+Error: Module "html" does not provide a view engine.
+    at new View (C:\Users\shun7\express_proj\node_modules\express\lib\v
+    at Function.render (C:\Users\shun7\express_proj\node_modules\expres
+    at ServerResponse.render (C:\Users\shun7\express_proj\node_modules\
+    at C:\Users\shun7\express_proj\index.js:7:9
+    at Layer.handle [as handle_request] (C:\Users\shun7\express_proj\no
+    at next (C:\Users\shun7\express_proj\node_modules\express\lib\route
+    at Route.dispatch (C:\Users\shun7\express_proj\node_modules\express
+    at Layer.handle [as handle_request] (C:\Users\shun7\express_proj\no
+    at C:\Users\shun7\express_proj\node_modules\express\lib\router\inde
+    at Function.process_params (C:\Users\shun7\express_proj\node_module
+PS C:\Users\shun7\express_proj> npm install ejs
+added 4 packages, and audited 447 packages in 2s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> npm update
+up to date, audited 447 packages in 4s
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> node index.js
+server on! http://localhost:3000
+PS C:\Users\shun7\express_proj>
+PS C:\Users\shun7\express_proj> npm install sequelize sequelize-cli    
+added 65 packages, changed 1 package, and audited 512 packages in 18s  
+
+41 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+PS C:\Users\shun7\express_proj> install mysql2
+install : 'install' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 수  
+있는 프로그램 이름으로 인식되지 않습니다. 이름이 정확한지 확인하고 경  
+로가 포함된 경우 경로가 올바른지 검증한 다음 다시 시도하십시오.        
+위치 줄:1 문자:1
++ install mysql2
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (install:String) [], Co  
+   mmandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\shun7\express_proj> npm install mysql2
+added 11 packages, and audited 523 packages in 4s
+
+41 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\shun7\express_proj> npm update
+
+526 packages in 34s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+PS C:\Users\shun7\express_proj> sequelize init
+sequelize : 'sequelize' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 
+ 수 있는 프로그램 이름으로 인식되지 않습니다. 이름이 정확한지 확인하고 
+ 경로가 포함된 경우 경로가 올바른지 검증한 다음 다시 시도하십시오.     
+위치 줄:1 문자:1
++ sequelize init
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sequelize:String) [],   
+   CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\shun7\express_proj> npm install sequelize-cli
+up to date, audited 526 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+PS C:\Users\shun7\express_proj> sequelize init
+sequelize : 'sequelize' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 
+ 수 있는 프로그램 이름으로 인식되지 않습니다. 이름이 정확한지 확인하고 
+ 경로가 포함된 경우 경로가 올바른지 검증한 다음 다시 시도하십시오.     
+위치 줄:1 문자:1
++ sequelize init
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (sequelize:String) [],   
+   CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.3.0, ORM: 6.12.0]
+
+Created "config\config.json"
+Successfully created models folder at "C:\Users\shun7\express_proj\models".
+Successfully created migrations folder at "C:\Users\shun7\express_proj\migrations".
+Successfully created seeders folder at "C:\Users\shun7\express_proj\seedePS C:\Users\shun7\express_proj> sequelize db:create
+sequelize : 'sequelize' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할   
+수 있는 프로그램 이름으로 인식되지 않습니다. 이름이 정확한지 확인하고 경 
+로가 포함된 경우 경로가 올바른지 검증한 다음 다시 시도하십시오.
+위치 줄:1 문자:1
++ sequelize db:create
+    + CategoryInfo          : ObjectNotFound: (sequelize:String) [], Co  
+   mmandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\shun7\express_proj> npx sequelize db:create
+
+Sequelize CLI [Node: 16.13.1, CLI: 6.3.0, ORM: 6.12.0]
+
+Loaded configuration file "config\config.json".
+Using environment "development".
+Database db_express created.
+PS C:\Users\shun7\express_proj> node index.js
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module './models'
+Require stack:
+- C:\Users\shun7\express_proj\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)   
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\index.js:18:23)   
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)        
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)   
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'C:\\Users\\shun7\\express_proj\\index.js' ]
+}
+PS C:\Users\shun7\express_proj> node index.js
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\shun7\express_proj\Apii\models/../config/config.json'
+Require stack:
+- C:\Users\shun7\express_proj\Apii\models\index.js
+- C:\Users\shun7\express_proj\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)   
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\Apii\models\index.js:8:16)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)     
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\shun7\\express_proj\\Apii\\models\\index.js',
+    'C:\\Users\\shun7\\express_proj\\index.js'
+  ]
+}
+PS C:\Users\shun7\express_proj> node index.js
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\shun7\express_proj\Apii\models....configconfig.json'
+Require stack:
+- C:\Users\shun7\express_proj\Apii\models\index.js
+- C:\Users\shun7\express_proj\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)   
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)     
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\shun7\\express_proj\\Apii\\models\\index.js',
+    'C:\\Users\\shun7\\express_proj\\index.js'
+  ]
+}
+PS C:\Users\shun7\express_proj> node index.js
+C:\Users\shun7\express_proj\Apii\models\user.js:11
+        type: DataTypes.varchar(256),
+                        ^
+TypeError: DataTypes.varchar is not a function
+    at module.exports (C:\Users\shun7\express_proj\Apii\models\user.js:11:25)       
+    at C:\Users\shun7\express_proj\Apii\models\index.js:27:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\Apii\models\index.js:26:4)   
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)     
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+PS C:\Users\shun7\express_proj> node index.js
+C:\Users\shun7\express_proj\Apii\models\user.js:25
+        type: DataTypes.char(256),
+                        ^
+TypeError: DataTypes.char is not a function
+    at module.exports (C:\Users\shun7\express_proj\Apii\models\user.js:25:25)       
+    at C:\Users\shun7\express_proj\Apii\models\index.js:27:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\Apii\models\index.js:26:4)   
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)     
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+PS C:\Users\shun7\express_proj> node index.js
+C:\Users\shun7\express_proj\Apii\models\user.js:25
+        type: Sequelize.CHAR(256),
+              ^
+ReferenceError: Sequelize is not defined
+    at module.exports (C:\Users\shun7\express_proj\Apii\models\user.js:25:15)       
+    at C:\Users\shun7\express_proj\Apii\models\index.js:27:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\Apii\models\index.js:26:4)   
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)     
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+PS C:\Users\shun7\express_proj> node index.js
+C:\Users\shun7\express_proj\Apii\models\user.js:25
+        type: Sequelize.UUID(256),
+              ^
+ReferenceError: Sequelize is not defined
+    at module.exports (C:\Users\shun7\express_proj\Apii\models\user.js:25:15)       
+    at C:\Users\shun7\express_proj\Apii\models\index.js:27:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\Apii\models\index.js:26:4)   
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)     
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+PS C:\Users\shun7\express_proj> node index.js
+C:\Users\shun7\express_proj\Apii\models\user.js:25
+        type: Sequelize.UUID(256),
+              ^
+ReferenceError: Sequelize is not defined
+    at module.exports (C:\Users\shun7\express_proj\Apii\models\user.js:25:15)       
+    at C:\Users\shun7\express_proj\Apii\models\index.js:27:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\Apii\models\index.js:26:4)   
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)     
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+PS C:\Users\shun7\express_proj> node index.js
+C:\Users\shun7\express_proj\Apii\models\user.js:25
+        type: sequelize.UUID(256),
+                        ^
+TypeError: sequelize.UUID is not a function
+    at module.exports (C:\Users\shun7\express_proj\Apii\models\user.js:25:25)       
+    at C:\Users\shun7\express_proj\Apii\models\index.js:27:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\Apii\models\index.js:26:4)   
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)     
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+PS C:\Users\shun7\express_proj> node index.js
+C:\Users\shun7\express_proj\Apii\models\user.js:25
+        type: Sequelize.UUID(256),
+              ^
+ReferenceError: Sequelize is not defined
+    at module.exports (C:\Users\shun7\express_proj\Apii\models\user.js:25:15)       
+    at C:\Users\shun7\express_proj\Apii\models\index.js:27:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\Apii\models\index.js:26:4)   
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)     
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+PS C:\Users\shun7\express_proj> node index.js
+C:\Users\shun7\express_proj\Apii\models\user.js:29
+        type: Sequelize.CHAR(256),
+                        ^
+TypeError: Cannot read properties of undefined (reading 'CHAR')
+    at module.exports (C:\Users\shun7\express_proj\Apii\models\user.js:29:25)       
+    at C:\Users\shun7\express_proj\Apii\models\index.js:27:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\Apii\models\index.js:26:4)   
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)     
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+PS C:\Users\shun7\express_proj> node index.js
+C:\Users\shun7\express_proj\Apii\models\user.js:47
+        type: DataTypes.tinyint(3),
+                        ^
+TypeError: DataTypes.tinyint is not a function
+    at module.exports (C:\Users\shun7\express_proj\Apii\models\user.js:47:25)       
+    at C:\Users\shun7\express_proj\Apii\models\index.js:27:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\Apii\models\index.js:26:4)   
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)     
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+PS C:\Users\shun7\express_proj> node index.js
+C:\Users\shun7\express_proj\Apii\models\user.js:53
+        type: DataTypes.tinyint(1),
+                        ^
+TypeError: DataTypes.tinyint is not a function
+    at module.exports (C:\Users\shun7\express_proj\Apii\models\user.js:53:25)       
+    at C:\Users\shun7\express_proj\Apii\models\index.js:27:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\Apii\models\index.js:26:4)   
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)     
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+PS C:\Users\shun7\express_proj> node index.js
+C:\Users\shun7\express_proj\node_modules\sequelize\dist\lib\model.js:703
+        throw new Error(`Unrecognized datatype for attribute "${this.name}.${name}"`);
+        ^
+
+Error: Unrecognized datatype for attribute "Users.id"
+    at C:\Users\shun7\express_proj\node_modules\sequelize\dist\lib\model.js:703:15  
+    at C:\Users\shun7\express_proj\node_modules\lodash\lodash.js:13469:38
+    at baseForOwn (C:\Users\shun7\express_proj\node_modules\lodash\lodash.js:3032:24)
+    at Function.mapValues (C:\Users\shun7\express_proj\node_modules\lodash\lodash.js:13468:7)
+    at Function.init (C:\Users\shun7\express_proj\node_modules\sequelize\dist\lib\model.js:700:28)
+    at Sequelize.define (C:\Users\shun7\express_proj\node_modules\sequelize\dist\lib\sequelize.js:219:11)
+    at module.exports (C:\Users\shun7\express_proj\Apii\models\user.js:5:29)        
+    at C:\Users\shun7\express_proj\Apii\models\index.js:27:54
+    at Array.forEach (<anonymous>)
+PS C:\Users\shun7\express_proj> node index.js
+C:\Users\shun7\express_proj\node_modules\sequelize\dist\lib\model.js:703
+        throw new Error(`Unrecognized datatype for attribute "${this.name}.${name}"`);
+        ^
+
+Error: Unrecognized datatype for attribute "user.id"
+    at C:\Users\shun7\express_proj\node_modules\sequelize\dist\lib\model.js:703:15  
+    at C:\Users\shun7\express_proj\node_modules\lodash\lodash.js:13469:38
+    at baseForOwn (C:\Users\shun7\express_proj\node_modules\lodash\lodash.js:3032:24)
+    at Function.mapValues (C:\Users\shun7\express_proj\node_modules\lodash\lodash.js:13468:7)
+    at Function.init (C:\Users\shun7\express_proj\node_modules\sequelize\dist\lib\model.js:700:28)
+    at Sequelize.define (C:\Users\shun7\express_proj\node_modules\sequelize\dist\lib\sequelize.js:219:11)
+    at module.exports (C:\Users\shun7\express_proj\Apii\models\user.js:5:28)        
+    at C:\Users\shun7\express_proj\Apii\models\index.js:27:54
+    at Array.forEach (<anonymous>)
+PS C:\Users\shun7\express_proj> node index.js
+C:\Users\shun7\express_proj\Apii\models\user.js:91
+    return Users;
+    ^
+ReferenceError: Users is not defined
+    at module.exports (C:\Users\shun7\express_proj\Apii\models\user.js:91:5)        
+    at C:\Users\shun7\express_proj\Apii\models\index.js:27:54
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\shun7\express_proj\Apii\models\index.js:26:4)   
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)     
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+PS C:\Users\shun7\express_proj> node index.js
+server on! http://localhost:3000
+(node:20840) Warning: Accessing non-existent property 'Sequelize' of module exports 
+inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(3) COMMENT '비밀번호 틀린 횟수', `isPwChange` TINYINT(1) COMMENT '비밀번호가 변경되
+었는지', `isVerified` TINYINT(1) COMMENT '인증 여부', `isNaver` TINYINT(1) COMMENT '네이버 인증', `isKakao` TINYINT(1) COMMENT '카카오 인증', `isGoogle` TINYINT(1) COMMENT '구글 인증', `lastLoginAt` DATETIME COMMENT '마지막 로그인 시점', `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, `deletedAt` DATETIME, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_general_ci;
+Executing (default): SHOW INDEX FROM `user` FROM `db_express`
+데이터베이스 연결 성공
+PS C:\Users\shun7\express_proj> cd Apii
+PS C:\Users\shun7\express_proj\Apii> cd .\seeders\
+PS C:\Users\shun7\express_proj\Apii\seeders> npx sequelize seed:generate --name Test
+
+Sequelize CLI [Node: 16.13.1, CLI: 6.3.0, ORM: 6.12.0]
+
+Successfully created seeders folder at "C:\Users\shun7\express_proj\Apii\seeders\seeders".
+New seed was created at C:\Users\shun7\express_proj\Apii\seeders\seeders\20211219154405-Test.js .
+PS C:\Users\shun7\express_proj\Apii\seeders> 
+
